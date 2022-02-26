@@ -20,8 +20,8 @@ The general form of the cart-pole is shown in the following figure. Note that we
 
 
 <p float="left">
-  <img src="/images/Fig-project/CartPole_model.png" width="350" />
-  <img src="/images/Fig-project/quantization_3D.png" width="350" /> 
+  <img src="/figs/CartPole_model.png" width="350" />
+  <img src="/figs/quantization_3D.png" width="350" /> 
 </p>
 
 
@@ -41,7 +41,7 @@ The state-action value functions (Q-values) tell us what return different action
 An intuitive policy would be: At each state $s$, pick the action $a$ that gives us the highest (estimated) reward. This is a **greedy policy**, and this idea is also called ***exploitaion***. The problem with this approch is that the rewards, which are recorder in a table in terms of the Q-values, are *estimated*, hence they are not reliable. We need to explore other options to improve our estimates of the Q-values. This idea is called ***exploration***. To balance this, we usually use an algorithm, called $\epsilon-$**greedy**. This algorithm is summarized in the following.
 
 <p float="left">
-  <img src="/images/Fig-project/epsilon_greedy.png" width="700" />
+  <img src="/figs/epsilon_greedy.png" width="700" />
 </p>
 
 Now, we should note that as we move forward in the simulations, we decrease decrease $\epsilon$ becasue we do not need exploration that much. Also, it is safe to assume that as we move forward in the simulations the benefits of the explorations in finding the optimal policy decreases. Hence we use a decreasing epsilon.
@@ -51,7 +51,7 @@ Now, we should note that as we move forward in the simulations, we decrease decr
 The moving average of the average survival time of the policy is shown in the following figure:
 
 <p float="left">
-  <img src="/images/Fig-project/CartPole_tabular_state_action_values_reward_running_avg.png" width="600" />
+  <img src="/figs/CartPole_tabular_state_action_values_reward_running_avg.png" width="600" />
 </p>
 
 <br />
