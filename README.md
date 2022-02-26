@@ -32,7 +32,7 @@ The idea of state-action value functions (Q-values) is shown in the following fi
 
 
 
-## $\epsilon$---Greedy Policy
+## **ε**---Greedy Policy
 
 The state-action value functions (Q-values) tell us what return different actions at different states can give us. Now we need to define **how to pick actions**. Now we can be deterministic or stochastic, but for simplicity we focus on the deterministic approach. 
 
