@@ -20,8 +20,8 @@ The general form of the cart-pole is shown in the following figure. Note that we
 
 
 <p float="left">
-  <img src="/figs/CartPole_model.png" width="350" />
-  <img src="/figs/quantization_3D.png" width="350" /> 
+  <img src="/figs/CartPole_model.png" width="300" />
+  <img src="/figs/quantization_3D.png" width="300" /> 
 </p>
 
 
@@ -51,7 +51,7 @@ Now, we should note that as we move forward in the simulations, we decrease decr
 The moving average of the average survival time of the policy is shown in the following figure:
 
 <p float="left">
-  <img src="/figs/CartPole_tabular_state_action_values_reward_running_avg.png" width="600" />
+  <img src="/figs/reward_running_avg_CartPole_tabular_state_action_values.png" width="600" />
 </p>
 
 <br />
