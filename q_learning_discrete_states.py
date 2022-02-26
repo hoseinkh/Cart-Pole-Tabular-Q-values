@@ -154,8 +154,8 @@ if __name__ == '__main__':
   alpha = 0.01
   discount_rate = 0.9
   num_of_episodes = 10000
-  ## we use monitor to record
-  if 'monitor' in sys.argv:
+  ## we can use monitor to record
+  if False:
     filename = os.path.basename(__file__).split('.')[0]
     monitor_dir = './video/' + filename + '_' + str(datetime.now())
     env = wrappers.Monitor(env, monitor_dir)
